@@ -12,9 +12,12 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar("%i, ", num);
-		if (num == 9)
-			putchar("%i", num);
+		putchar(num + '0');
+		if (num < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		num++;
 	}
 
