@@ -11,8 +11,8 @@ int main(void)
 
 	while (num < '10')
 	{
-		putchar("%i", num);
-		num++
+		putchar(num);
+		num++;
 	}
 
 	putchar('\n');
