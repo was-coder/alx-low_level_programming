@@ -18,13 +18,13 @@ int main(void)
 
 		if (k < j)
 		{
-			putchar(i + '0');
+			putchar(k + '0');
 			putchar(j + '0');
 
-			if (i < 89)
+			if (i < '8')
 			{
-				putchar(44);
-				putchar(32);
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
