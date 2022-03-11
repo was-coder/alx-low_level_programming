@@ -4,7 +4,7 @@
  * main - Entry Point
  * Description: Number that proints three digit
  * Return: return 0 as success
- * */
+ */
 
 int main(void)
 {
@@ -12,9 +12,9 @@ int main(void)
 
 	for (a = 0; a < 1000; a++)
 	{
-		b /= 100;
+		b = a / 100;
 		c = (a / 10) % 10;
-		d %= 10;
+		d = a % 10;
 
 		if (b < c && c < d)
 		{
