@@ -5,17 +5,16 @@
  * Return: return 0 as success
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char letter = 'a';
+	char letter;
+
+	letter = 'a';
 
 	while (letter <= 'z')
 	{
 		_putchar(letter);
 		letter++;
 	}
-
 	_putchar('\n');
-
-	return (0);
 }
