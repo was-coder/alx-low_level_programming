@@ -2,6 +2,8 @@
 
 /**
  * _islower - checks for lowercase character
+ * @c: parameter
+ *
  * Return: return 0 as success
  */
 
