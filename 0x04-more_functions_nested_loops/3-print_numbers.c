@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - print numbers form 0 to 9
- * Return: 0 as success
  */
 
 void print_numbers(void)
