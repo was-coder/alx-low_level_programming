@@ -3,8 +3,6 @@
 /**
  * _puts_recursion - function that prints a string
  * @s: parameter passed
- *
- * Return: 0 as success
  */
 
 void _puts_recursion(char *s);
