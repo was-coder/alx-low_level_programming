@@ -3,6 +3,8 @@
 /**
  * _puts_recursion - function that prints a string
  * @s: parameter passed
+ *
+ * Return: return null
  */
 
 void _puts_recursion(char *s);
@@ -14,6 +16,5 @@ void _puts_recursion(char *s);
 	}
 
 	_putchar(*s);
-	s++;
-	_puts_recursion(s);
+	_puts_recursion(s + 1);
 }
