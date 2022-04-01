@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * is_num - iterate through each argv to test if it's a number
- * @argv: A argv
+ * @argvv: A argv
  *
  * Return: 0 as success
  */
