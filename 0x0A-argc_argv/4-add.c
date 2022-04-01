@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "main.h"
 
 /**
  * is_num - iterate through each argv to test if it's a number
