@@ -8,13 +8,13 @@
  * Return: 0 as success
  */
 
-bool is_num(char *argv)
+bool is_num(char *argvv)
 {
 	int i = 0;
 
-	for (i = 0; argv[i]; i++)
+	for (i = 0; argvv[i]; i++)
 	{
-		if (!(argv[i] >= '0' && argv[i] <= '9'))
+		if (!(argvv[i] >= '0' && argvv[i] <= '9'))
 			return (0);
 	}
 
