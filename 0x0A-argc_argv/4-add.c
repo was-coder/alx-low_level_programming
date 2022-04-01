@@ -11,11 +11,11 @@
 
 bool is_num(char *argvv)
 {
-	int i = 0;
+	int j = 0;
 
-	for (i = 0; argvv[i]; i++)
+	for (j = 0; argvv[j]; j++)
 	{
-		if (!(argvv[i] >= '0' && argvv[i] <= '9'))
+		if (!(argvv[j] >= '0' && argvv[j] <= '9'))
 			return (0);
 	}
 
@@ -32,7 +32,7 @@ bool is_num(char *argvv)
 
 int main(int argc, char *argv[])
 {
-	int j = 0;
+	int i = 0;
 	int sum = 0;
 
 	if (argc == 1)
@@ -41,16 +41,16 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	while (j < argc)
+	while (i < argc)
 	{
-		if (is_num(argv[j]))
-			sum += atoi(argv[j]);
+		if (is_num(argv[i]))
+			sum += atoi(argv[i]);
 		else
 		{
 			printf("Error\n");
 			return (1);
 		}
-		j++;
+		i++;
 	}
 
 	printf("%d\n", sum);
